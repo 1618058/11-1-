@@ -66,7 +66,10 @@ public void getJson(DetectedFaces result) {
 	mysql.updateImage(age_min,age_max,age_score,gender,gender_score);
 	
 	 System.out.println("age_min : " + age_min);
-	
+	 System.out.println("age_max : " + age_max);
+	 System.out.println("age_score : " + age_score);
+	 System.out.println("gender : " + gender);
+	 System.out.println("gender_score : " + gender_score);
 }
 
 }
